@@ -10,3 +10,4 @@ const getItemsString = function (array) {
 };
 
 console.log(getItemsString(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']));
+console.log(getItemsString([5, 10, 15]));

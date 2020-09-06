@@ -33,6 +33,7 @@ if (countryName === null) {
     case JAMAICA:
       price = 120;
       break;
+
     default:
       message = NO_DELIVERY;
   }

@@ -1,6 +1,6 @@
 // Задача №4
 
-const orderPieces = 10;
+const orderPieces = 25;
 
 const credits = 23580;
 const pricePerDroid = 3000;
@@ -14,7 +14,7 @@ if (orderPieces == null) {
   message = CANCELED_BY_USER;
 } else if (totalPrice > credits) {
   message = ACCESS_DENIED;
-} else if (totalPrice <= credits && totalPrice >= 0) {
+} else if (totalPrice <= credits) {
   message = `Вы купили ${orderPieces} дроидов, на счету осталось ${balanceCredit} кредитов`;
 }
 
